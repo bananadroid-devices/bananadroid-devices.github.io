@@ -9,17 +9,16 @@
         <link rel="icon" type="image/x-icon" href="assets/logo.webp" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
-		<link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@100;200;300;400;500;700;900&display=swap" rel="stylesheet" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Addition -->
+        <link href="css.stylesheet.css" rel="stylesheet">
     </head>
     <body id="page-top">
-        <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm bg-gradient-primary-to-secondary" id="mainNav">
             <div class="container px-5">
                 <a class="navbar-brand fw-bold" href="#page-top">BananaDroid</a>
@@ -30,28 +29,25 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                         <li class="nav-item"><a class="nav-link me-lg-3" href="index.html">Home</a></li>
-						<li class="nav-item"><a class="nav-link me-lg-3" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="about.html">About</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="download.html">Download</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <!-- Mashead header-->
         <header class="masthead">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6">
-                        <!-- Mashead text and app badges-->
                         <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                            <img src="assets/img/title.svg" alt="..." />
-                            <p class="lead fw-normal text-muted mb-5">An ordinary Custom ROM made by an ordinary person</p>
+                        <h1 style="font-family: 'Dreamscape'; font-weight: normal; font-style: normal;" class="d-inline display-3 mb-2 fw-bolder">Banana</h1><h1 style="font-family: 'Dreamscape'; font-weight: normal; font-style: normal;" class="d-inline display-3 mb-2 text-gradient fw-bolder">Droid</h1>
+                        <p class="lead fw-normal text-muted mb-5">An ordinary Android Custom ROM made by an ordinary person</p>
                             <div class="d-flex flex-column flex-lg-row align-items-center">
-								<a class="btn btn-gradient py-3 px-4 fw-bolder text-black" href="https://bananadroid.net/download" target="_blank">Grab Your Banana</a>
+                            <a class="btn btn-gradient py-3 px-4 fw-bolder text-black" href="download.html" target="_blank">Grab Your Banana</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <!-- Masthead device mockup feature-->
                         <div class="masthead-device-mockup">
                             <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                 <defs>
@@ -81,11 +77,11 @@
             <div class="container px-5">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-xl-8">
-                        <div class="h1 text-center text-gradient fw-bold font-alt mb-4">Join and Support Us</div>
-                        <a class="me-lg-3 mb-4 mb-lg-0" href="https://github.com/bananadroid"><img class="app-badge" src="assets/img/github.webp" alt="..." /></a>
-                        <a class="me-lg-3 mb-4 mb-lg-0" href="https://t.me/bananadroid"><img class="app-badge" src="assets/img/telegram.webp" alt="..." /></a>
-                        <a class="me-lg-3 mb-4 mb-lg-0" href="https://paypal.me/travarilo"><img class="app-badge" src="assets/img/paypal.webp" alt="..." /></a>
-						<a class="me-lg-3 mb-4 mb-lg-0" href="https://saweria.co/travarilo"><img class="app-badge" src="assets/img/saweria.webp" alt="..." /></a>
+                        <div class="h1 text-center text-gradient fw-bold mb-4">Join and Support Us</div>
+                        <a class="mx-3 mb-4 mb-lg-0" href="https://github.com/bananadroid"><img class="app-badge" src="assets/img/github.webp" alt="..." /></a>
+                        <a class="mx-3 mb-4 mb-lg-0" href="https://t.me/bananadroid"><img class="app-badge" src="assets/img/telegram.webp" alt="..." /></a>
+                        <a class="mx-lg-3 mb-4 mb-lg-0" href="https://paypal.me/travarilo"><img class="app-badge" src="assets/img/paypal.webp" alt="..." /></a>
+                        <a class="mx-lg-3 mb-4 mb-lg-0" href="https://saweria.co/travarilo"><img class="app-badge" src="assets/img/saweria.webp" alt="..." /></a>
                     </div>
                 </div>
             </div>
@@ -95,23 +91,17 @@
                 <div class="text-white-50">
                     <div class="text-gradient medium mb-2">BananaDroid</div>
                     <div class="text-white-50 small">Copyright &copy;
-                            <script>
-                                document.write(new Date().getFullYear());
-                            </script>
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
                     <span class="mx-1">All rights reserved &middot;</span>
                     <a>Modified design by Rizky Benggolo</a>
-					</div>
+                    </div>
                 </div>
             </div>
         </footer>
-        <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
