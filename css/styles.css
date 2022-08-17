@@ -11683,7 +11683,7 @@ footer a:hover, footer a:active, footer a:focus {
   }
   .gallery .swiper-slide-active {
     border: 0.5px transparent #ecb602;
-    padding: 15px;
+    padding: 5px;
     background: #fff;
     z-index: 1;
     transform: scale(1.3);
