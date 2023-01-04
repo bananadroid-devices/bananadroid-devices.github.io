@@ -167,8 +167,9 @@ h7, .h7 {
 }
 
 p {
+  font-size: 0.5rem;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 abbr[title],
