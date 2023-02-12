@@ -3031,7 +3031,7 @@ textarea.form-control-lg {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.btn1 {border-radius: 24px;}
+.btn1 {border-radius: 12px;}
 
 @media (prefers-reduced-motion: reduce) {
   .btn {
