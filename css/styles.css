@@ -12084,7 +12084,7 @@ header.masthead .post-heading .meta a {
 }
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: 5rem;
+    padding-top: 10rem;
     padding-bottom: 5rem;
   }
   header.masthead .page-heading h1, header.masthead .page-heading .h1,
