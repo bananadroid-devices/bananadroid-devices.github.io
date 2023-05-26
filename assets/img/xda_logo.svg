@@ -1,30 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <!-- Creator: CorelDRAW X7 -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="606px" height="358px" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 606 358"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="380px" height="380px" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 380 380"
  xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
    <![CDATA[
     .fil0 {fill:none}
-    .fil3 {fill:black}
-    .fil1 {fill:#2DAAE9}
-    .fil2 {fill:#E43F64}
+    .fil1 {fill:#7B4E00}
+    .fil2 {fill:#EC7000}
    ]]>
   </style>
  </defs>
  <g id="Layer_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <rect class="fil0" width="606" height="358"/>
-  <g id="_360312936">
-   <polygon class="fil1" points="140,159 140,132 208,132 208,285 140,285 140,259 180,259 180,159 "/>
-   <polygon class="fil2" points="109,159 109,132 41,132 41,285 75,285 109,341 109,259 69,259 69,159 "/>
-   <g>
-    <polygon class="fil3" points="336,173 336,172 341,167 318,167 286,205 254,167 232,167 236,172 275,219 236,266 232,270 254,270 286,232 318,270 341,270 337,266 297,219 "/>
-    <path class="fil3" d="M433 167l-83 0 0 103 83 0c6,0 10,-2 14,-6 4,-4 6,-8 6,-14l0 -64c0,-5 -2,-9 -6,-13 -4,-4 -9,-6 -14,-6zm-66 19c0,0 0,0 0,-1 1,0 1,0 2,0l64 0c0,0 0,0 1,0 0,1 0,1 0,1l0 64c0,1 0,1 0,2 -1,0 -1,0 -1,0l-64 0c0,0 -1,0 -1,0 -1,-1 -1,-1 -1,-2l0 -64 0 0z"/>
-    <path class="fil3" d="M560 173c-4,-4 -8,-6 -13,-6l-64 0c-6,0 -10,2 -14,6 -4,4 -6,8 -6,14l0 83 17 0 0 -35 68 0 0 35 17 0 0 -84c1,-5 -1,-9 -5,-13zm-80 13c0,0 0,0 1,-1 0,0 1,0 1,0l64 0c1,0 1,0 1,0 1,1 1,1 1,1l0 31 -68 0 0 -31z"/>
-   </g>
+  <rect class="fil0" width="380" height="380"/>
+  <g id="_361983936">
+   <polygon class="fil1" points="216,79 216,35 327,35 327,285 216,285 216,242 281,242 281,79 "/>
+   <polygon class="fil2" points="164,79 164,35 53,35 53,285 109,285 164,377 164,242 99,242 99,79 "/>
   </g>
  </g>
 </svg>
